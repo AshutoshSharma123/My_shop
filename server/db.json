@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "3bcZSWCE25ckvBklbnpMm",
+      "username": "111",
+      "email": "111@gmail.com",
+      "password": "12345",
+      "isAdmin": true,
+      "cart": []
+    },
+    {
+      "id": "adRMbfDAbNFKby168hxpC",
+      "username": "Ashutosh",
+      "email": "aashusharma375@gmail.com",
+      "password": "Ashutosh123@",
+      "isAdmin": true,
+      "cart": [
+        {
+          "productId": "W9sRDcJF3jYJL68Cef7IP",
+          "quantity": 2
+        },
+        {
+          "productId": "M-gl7v8J_KJ27dtXxzayH",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "nFiCVVRs1wXqZqBKMc747",
+      "username": "Aditya",
+      "email": "adis43524@gmail.com",
+      "password": "Aditya123@",
+      "isAdmin": false,
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "id": "M-gl7v8J_KJ27dtXxzayH",
+      "title": "Iphone 16",
+      "price": "4039",
+      "image": "https://imgs.search.brave.com/jxl1ZqsouIrcqxvepAJaiEcM_v5xfahsu9s8r8syVsM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplLzdm/NjgzYmM1OGYzMzgx/NmU4Y2Y4MGY0Njlm/YjdlNjEwMjcwODhh/YjkvaHViLzIwMjQv/MDkvMTMvMzZlNzYw/YmYtMmU5MC00MzEz/LTlkNDQtMmJlZTg2/MDgwM2U3L2lwaG9u/ZS0xNi1wbHVzLWlw/aG9uZS0xNi00NTM0/LmpwZz9hdXRvPXdl/YnAmZml0PWNyb3Am/aGVpZ2h0PTM2MiZ3/aWR0aD02NDQ",
+      "category": "mobile",
+      "description": "The iPhone 16 and iPhone 16 Plus are smartphones developed and marketed by Apple, representing the eighteenth-generation iPhones, succeeding the iPhone 15 and iPhone 15 Plus.\n They were announced during the Apple Event at Apple Park in Cupertino, California, on September 9, 2024, marking the first time an iPhone release was announced on a Monday.\n The devices were unveiled alongside the higher-priced iPhone 16 Pro and 16 Pro Max.\n The iPhone 16 is equipped with an aluminum design with a color-infused glass back, except for the white and black models, and features a vertical camera layout, a return to the design seen on the iPhone 11 and iPhone 12."
+    },
+    {
+      "id": "W9sRDcJF3jYJL68Cef7IP",
+      "title": "AirPods",
+      "price": "10000",
+      "image": "https://imgs.search.brave.com/6gTMWHNuBoMgIyNe3_7YC--KDv_YuHG5aepcKFi_dBs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90LW1v/YmlsZS5zY2VuZTcu/Y29tL2lzL2ltYWdl/L1RtdXNwcm9kLzE5/NTk1MDU0MzY5OC1m/cm9udGltYWdl",
+      "category": "Earphones",
+      "description": "Apple AirPods are wireless Bluetooth earbuds designed and sold by Apple Inc. \n The first generation was announced on September 7, 2016, and released on December 13, 2016.\n Subsequent generations include the second generation, released on March 20, 2019 \n , the third generation on October 26, 2021 \n , and the AirPods 4, announced on September 9, 2024.\n The first-generation AirPods were discontinued on March 20, 2019, the second and third generations on September 9, 2024.\n\nThe AirPods feature a proprietary Apple W1 chip in the first generation, an H1 chip in the second and third generations, and the H2 chip in the AirPods 4.\n They include dual beam-forming microphones and optical sensors for detecting placement in the ear and enabling automatic pausing when removed.\n The AirPods 4 feature Bluetooth 5.3 and a USB-C charging case.\n The third-generation AirPods include IPX4 water resistance and MagSafe charging capability.\n The AirPods 4 also feature IP54 dust resistance and a smaller charging case."
+    },
+    {
+      "id": "l1LdES-D-IQLzs4b8lNd2",
+      "title": "Rolex Divers'  watch Oyester Edition",
+      "price": "5000",
+      "image": "https://imgs.search.brave.com/bgax3vLDe5_0F32IEfpz9Deo9grCmtPJvCwABY3cHB8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5yb2xleC5jb20v/aW1hZ2UvdXBsb2Fk/L3FfYXV0bzplY28v/Zl9hdXRvL2NfbGlt/aXQsd18xOTIwL3Yx/NzI3MDg4Mjk3L3Jv/bGV4Y29tL2NvbGxl/Y3Rpb24vZmFtaWx5/LXBhZ2VzL3Byb2Zl/c3Npb25hbC13YXRj/aGVzL3N1Ym1hcmlu/ZXIvZmFtaWx5LXBh/Z2UvMjAyNC93YXRj/aC1zdWdnZXN0aW9u/cy9wcm9mZXNzaW9u/YWwtd2F0Y2hlcy1z/dWJtYXJpbmVyLXdh/dGNoLXN1Z2dlc3Rp/b25fMjQwOTA0X3Jv/bGV4X3N1Ym1hcmlu/ZXJfZDNfMzczMzAx/LTM3MzMwMi1iYXNl/X25ldF9vay00NDk1/OTM2ODVfY2FtMTdf/cHJfMDk0Ml9yZ2Jf/MDNfci5qcGc",
+      "category": "Luxury",
+      "description": "Rolex is a Swiss luxury watch manufacturer headquartered in Geneva, founded in 1905 by Hans Wilsdorf and Alfred Davis in London under the name Wilsdorf and Davis. The brand name \"Rolex\" was registered in 1908, and the company moved to Switzerland in 1919 due to post-war economic pressures."
+    },
+    {
+      "id": "brETN0OCc_1yfy4LX42Sd",
+      "title": "Nike Air Force 2",
+      "price": "800000 INR",
+      "image": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250520/lGgN/682c2ce57a6cd4182f3ee228/-473Wx593H-469755814-blackgrey-MODEL.jpg",
+      "category": "Footwear",
+      "description": "In love with the classic look of '80s basketball but have a thing for the fast-paced culture of today's game Meet the Nike Court Vision Low. A classic remixed with at least 20% recycled materials by weight, its crisp upper and stitched overlays keep the soul of the original style. The plush, low-cut collar keeps it sleek and comfortable for your world."
+    },
+    {
+      "id": "ShfzQkDTuVK-XyzCGnsPi",
+      "title": "Product by Ashutosh",
+      "price": "10000",
+      "image": "https://imgs.search.brave.com/rWZr9OI12qwxM-lF4hoN5s6M8e4Ct9vZ3Ev9XfAvFeY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/Y3VsdG9mbWFjLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MS8xMC8yMDIxLU1h/Y0Jvb2stUHJvLTc4/MHg0NDAuanBlZw",
+      "category": "Technology",
+      "description": "The MacBook Pro is a line of business-oriented Mac laptop computers developed and manufactured by Apple. Introduced in 2006, it is the high-end sibling of the MacBook family, sitting above the ultra-portable MacBook Air and previously the low-end MacBook line. It is currently sold with 14-inch and 16-inch screens, all using Apple M-series chips. Before Apple silicon, the MacBook Pro used Intel chips, and was the first laptop made by Apple to do so, replacing the earlier PowerBook. It was also the first Apple laptop to carry the MacBook moniker."
+    },
+    {
+      "id": "WQ2S9iX2_7LRWW6MxmeJc",
+      "title": "Mouse",
+      "price": "600",
+      "image": "https://imgs.search.brave.com/vqZmbrFvVw2-0vbMXMbCud8ePIt_SnIVeiOPIV2TLKI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vdmFyaWFu/dHMvbzhTdlVKVXRS/WkJHWW5tZml3QW0x/ekZyLzYyNGYwZGMx/ZGZmOWJkY2NhYjAz/MmY5M2MzM2U3OWRl/Nzg0ODE3NzBlNzll/MjFkM2IwNDY5ZGFm/NTFmMDI3OTc",
+      "category": "Technology",
+      "description": "A wide selection of high-resolution images showcasing computer mice in various styles, colors, and contexts is available. These include realistic photos, transparent PNGs, and vector illustrations suitable for design and educational purposes."
+    },
+    {
+      "id": "9ErR40GAT8C8HcDQPYLOp",
+      "title": "Rayban Sunglasses",
+      "price": "8000",
+      "image": "https://imgs.search.brave.com/hxB73HQ3iD_gg7LeWTJJTyVlMzWgky_1aN9OeBdIc8E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9vcHRv/cml1bS5pbi9jZG4v/c2hvcC9maWxlcy9S/YXliYW4tTWV0YS1X/YXlmYXJlci1SVzQw/MDYtNjAxLTcxLVN1/bmdsYXNzZXMtMDEu/anBnP3Y9MTc1Mjc1/NTM3NCZ3aWR0aD0x/MjAw",
+      "category": "Daily Essential",
+      "description": "Ray-Ban Meta glasses are a series of smart glasses developed by Meta Platforms in partnership with EssilorLuxottica, the parent company of Ray-Ban.\n The second generation of these glasses, released in October 2023, features improved 12 MP cameras, enhanced audio with open-ear speakers, a microphone array, a touchpad for controls, and integration with Meta AI.\n They are designed to be a component of Meta's broader vision for the metaverse and offer functionalities such as livestreaming to Facebook and Instagram, voice commands, and hands-free photo and video capture.\n\nThe glasses come in three models: Skyler, Wayfarer, and Headliner, and are available in various styles including Round, Wayfarer, and Meteor, with options for polarized, transitioning, blue-light filtering, and prescription lenses.\n They are compatible with both iOS and Android devices and connect via Bluetooth 5.0 and Wi-Fi 802.11ac.\n A dedicated Meta View app allows users to manage content, edit photos and videos, and share them across Meta platform"
+    },
+    {
+      "id": "SaI1VpkrpIzg45PU_IfHR",
+      "title": "Harley Davidson",
+      "price": "500,000",
+      "image": "https://imgs.search.brave.com/gSBs417ivDOXbv-sNOyFDj4TtOzFRmPb_aOqqUjicwA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTY1/NjI1OTc0L3Bob3Rv/L2tlbm9zaGEtd2kt/aGFybGV5LWRhdmlk/c29uLW1vdG9yY3lj/bGVzLWFyZS1vZmZl/cmVkLWZvci1zYWxl/LWF0LXRoZS11a2Vz/LWhhcmxleS1kYXZp/ZHNvbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9ZVVodHI2/NXFPUXB2Y3o5WFRC/UC1mWWNzVUFMT0o3/TWdRTHRIZVlRNERo/RT0",
+      "category": "Automobile",
+      "description": "Harley-Davidson, Inc. is an iconic American motorcycle manufacturer founded in 1903 in Milwaukee, Wisconsin. It is one of the oldest and most recognized motorcycle brands globally, known for its heavyweight cruisers, distinctive engine sound, and strong cultural following.\n\nThe company is publicly traded on the NYSE under the ticker HOG and is a component of the S&P 400. As of 2023, Harley-Davidson reported $5.84 billion in revenue, produced 162,771 motorcycles, and employed approximately 6,400 people worldwide."
+    }
+  ],
+  "carts": []
+}
