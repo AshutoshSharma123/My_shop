@@ -36,10 +36,9 @@ export const asyncloginUser = (user) => async (dispatch, getstate) => {
             `/users?email=${user.email}&password=${user.password}`
         );
         if (data.length > 0) {
-            dispatch(loadUser(data)); // ✅ update Redux
-            localStorage.setItem("user", JSON.stringify(data[0])); // ✅ persist
-        }
-        else {
+            dispatch(loadUser(data[0])); // ✅ send user object, not array
+            localStorage.setItem("user", JSON.stringify(data[0]));
+        } else {
             console.log("Invalid credentials");
         }
     } catch (error) {
@@ -51,7 +50,11 @@ export const asyncloginUser = (user) => async (dispatch, getstate) => {
 export const asyncupdateUser = (id, user) => async (dispatch, getState) => {
     try {
         // assuming your backend supports PUT /users/:id
-        const res = await axios.patch('users/' + id, user);
+        // const res = await axios.patch('users/' + id, user);
+        const res = await axios.patch(`/users/${id}`, user); // ✅ correct URL format
+
+
+
 
         // ✅ update Redux
         dispatch(loadUser(res.data));
