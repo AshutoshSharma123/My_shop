@@ -19,7 +19,7 @@ const Products = () => {
 
     const fetchProducts = async () => {
         try {
-            const res = await axios.get(`http://localhost:3000/products?_limit=2&_start=${products.length}`);
+            const res = await axios.get(`https://my-shop-4g48.onrender.com/products?_limit=2&_start=${products.length}`);
 
             if (res.data.length === 0) {
                 setHasMore(false);
